@@ -1,0 +1,23 @@
+.App-menu{
+  height: 100vh;
+  display: flex;
+  width: 150px;
+  background: #e2e2e2;
+  flex-direction: column;
+  a{
+    text-decoration: none;
+  }
+  .App-menu_item{
+    padding-left: 20px;
+
+    font-weight: 600;
+    font-size: 20px;
+      color: black;
+  }
+  .App-menu_item--selected{
+    color: #737373;
+  }
+  .App-menu_item:hover{
+    color: #737373;
+  }
+}

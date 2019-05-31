@@ -1,3 +1,4 @@
+@import "menu";
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -8,10 +9,17 @@ body {
 }
 .App-header{
   height: 70px;
-  background: green;
+  background: #00014b;
+  color: #e2e2e2;
+  font-weight: 600;
+  font-size: 30;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.content{
+  display: flex;
+  flex-direction: row;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
