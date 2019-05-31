@@ -1,17 +1,17 @@
 import React from 'react';
 import Form from '../../form/Form';
-import FormTextInput from '../../form/formTextInput/FormTextInput';
+import FormTextInput from '../../form/formTextInput/FormTextInput.container';
 import BodyBlock from './bodyBlock/BodyBlock'
 
 
-export default function ArticleForm() {
+export default function ArticleForm({addContent,workingItem}) {
     return(
         <div className="article-form">
             <Form>
-                <FormTextInput placeholder="Article Title"/>
+                <FormTextInput id={"title"} placeholder="Article Title"/>
                 <div className="body-title">Body:</div>
-                <BodyBlock/>
-                <a className="btn btn-outline-dark btn-add">Add Page</a>
+                {workingItem.content.map((item,i)=><BodyBlock key={i} index={i}/>)}
+                <a className="btn btn-outline-dark btn-add" onClick={addContent}>Add Page</a>
             </Form>
         </div>);
 }

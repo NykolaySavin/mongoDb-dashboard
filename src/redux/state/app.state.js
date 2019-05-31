@@ -22,5 +22,5 @@ export const state = {
               "Couple Decides To Marry On Beach, But The Bride Is Left In Complete Shock Whe She Sees Her Groom Immediately Jumping In Water"
       }
   ],
-  workingItem: {}
+  workingItem: {content:[]}
 };

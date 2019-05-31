@@ -1,5 +1,5 @@
 import React from 'react';
-import ArticleForm from './articleForm/ArticleForm';
+import ArticleForm from './articleForm/ArticleForm.container';
 
 export default function ArticleCreatePage() {
     return(
