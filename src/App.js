@@ -2,8 +2,9 @@ import React from "react";
 import Header from "./components/header/Header";
 import Menu from "./components/menu/Menu";
 import Home from "./components/home/Home";
-import ArticlePage from "./components/articlePage/ArticlePage";
+import ArticlePage from "./components/articlePage/ArticlePage.container";
 import {Route,Switch} from "react-router-dom";
+import ArticleWorkPage from './components/articleWorkPage/ArticleWorkPage';
 
 function App() {
     const articlesUrl = '/articles';
@@ -16,7 +17,8 @@ function App() {
             <Menu items={menuItems}/>
             <Switch>
                 <Route path={startUrl} component={Home} exact/>
-                <Route path={articlesUrl} component={ArticlePage} exact/>
+                <Route path={articlesUrl} render={(props) => <ArticlePage {...props} {...menuItems[1]}/> } exact/>
+                <Route path={`/articles/add`} render={() => <ArticleWorkPage/> } exact/>
             </Switch>
         </div>
 
