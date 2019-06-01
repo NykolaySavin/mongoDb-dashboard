@@ -1,13 +1,14 @@
 import React from 'react';
-import FormTextInput from '../../../form/formTextInput/FormTextInput';
-import FormFileInput from "../../../form/formFileInput/FormFileInput";
+import FormTextInput from '../../../form/formTextInput/FormTextInput.container';
+import FormFileInput from "../../../form/formFileInput/FormFileInput.container";
 
-export default function ImageBlock() {
+export default function ImageBlock({item,workingItem}) {
+    const img = workingItem[`${item}.image.0`];
     return(<div className="image-block">
-        <img/>
+        <img src={img?img:null}/>
         <div className="form-group">
-            <FormTextInput placeholder="Image Caption"/>
-            <FormFileInput label="Select File"/>
+            <FormTextInput id={`${item}.image-caption`} placeholder="Image Caption"/>
+            <FormFileInput id={`${item}.image.0`} label="Select File"/>
         </div>
     </div>)
 }

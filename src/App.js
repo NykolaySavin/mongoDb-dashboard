@@ -5,11 +5,12 @@ import Home from "./components/home/Home";
 import ArticlePage from "./components/articlePage/ArticlePage.container";
 import {Route,Switch} from "react-router-dom";
 import ArticleWorkPage from './components/articleWorkPage/ArticleWorkPage';
+import {fetchArticles} from "./redux/modules/articlePage.module";
 
 function App() {
     const articlesUrl = '/articles';
     const startUrl = '/';
-    const menuItems = [{url:startUrl,title:"Home"},{url:articlesUrl,title:'Articles'}];
+    const menuItems = [{url:startUrl,title:"Home"},{url:articlesUrl,title:'Articles',onClick:fetchArticles}];
   return (
     <div className="App">
       <Header />
