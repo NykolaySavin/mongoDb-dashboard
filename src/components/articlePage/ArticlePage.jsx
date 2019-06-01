@@ -1,6 +1,6 @@
 import React from 'react';
 import AddBlock from "../addBlock/AddBlock";
-import Table from "../table/Table";
+import Table from "../table/Table.container";
 
 export default function ArticlePage({title,match,items,addItem}) {
     return(

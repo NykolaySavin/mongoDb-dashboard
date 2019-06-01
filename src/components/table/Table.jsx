@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Table({ items, title }) {
+export default function Table({ items, title,deleteItem }) {
   return (
     <div>
       <table className="table table-hover">
@@ -11,10 +11,10 @@ export default function Table({ items, title }) {
           </tr>
         </thead>
         <tbody>
-          {items.map((item,i) => (
-            <tr key={i*2}>
+          {items.map(item => (
+            <tr key={item["_id"]}>
               <td>{item.title}</td>
-              <td>Edit | Delete</td>
+              <td style={{width:150}}><a>Edit</a> | <a onClick={()=>deleteItem(item["_id"])}>Delete</a></td>
             </tr>
           ))}
         </tbody>

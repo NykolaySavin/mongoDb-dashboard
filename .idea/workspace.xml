@@ -2,28 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c38f8cd-dc97-423f-9510-4221f037c477" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/articleWorkPage/articleForm/imageBlock/ImageBlock.container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/form/formFileInput/FormFileInput.container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/api/articles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/apiRequests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/table/Table.container.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/articleWorkPage/articleForm/ArticleForm.container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/articleWorkPage/articleForm/ArticleForm.container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/articleWorkPage/articleForm/ArticleForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/articleWorkPage/articleForm/ArticleForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/articleWorkPage/articleForm/bodyBlock/BodyBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/articleWorkPage/articleForm/bodyBlock/BodyBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/articleWorkPage/articleForm/imageBlock/ImageBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/articleWorkPage/articleForm/imageBlock/ImageBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/Form.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form/formFileInput/FormFileInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/formFileInput/FormFileInput.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form/formTextAreaInput/FormTextAreaInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/formTextAreaInput/FormTextAreaInput.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form/formTextInput/FormTextInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/formTextInput/FormTextInput.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/menu/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/Menu.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/menu/menuItem/MenuItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menuItem/MenuItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/table/Table.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/Table.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/api/articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/api/articles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/apiRequests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/apiRequests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/modules/articleForm.module.input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/modules/articleForm.module.input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/modules/articlePage.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/modules/articlePage.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/saga/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/saga/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state/app.state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state/app.state.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,53 +27,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="articleForm.module.input.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/modules/articleForm.module.input.js">
+      <file leaf-file-name="Table.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/table/Table.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+            <state relative-caret-position="34">
+              <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Table.container.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/table/Table.container.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticlePage.container.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/articlePage/ArticlePage.container.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="13" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Form.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/form/Form.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormFileInput.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/form/formFileInput/FormFileInput.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormTextAreaInput.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/form/formTextAreaInput/FormTextAreaInput.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="143" selection-start-line="5" selection-start-column="143" selection-end-line="5" selection-end-column="143" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormTextInput.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/form/formTextInput/FormTextInput.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="93" selection-start-line="5" selection-start-column="93" selection-end-line="5" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -91,8 +60,8 @@
       <file leaf-file-name="articlePage.module.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/redux/modules/articlePage.module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state>
+              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -100,20 +69,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.state.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/redux/state/app.state.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/redux/saga/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleForm.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/articleWorkPage/articleForm/ArticleForm.jsx">
+      <file leaf-file-name="Menu.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/menu/Menu.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+            <state relative-caret-position="136">
+              <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -121,22 +93,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BodyBlock.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/articleWorkPage/articleForm/bodyBlock/BodyBlock.jsx">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+            <state relative-caret-position="17">
+              <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FormFileInput.container.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/form/formFileInput/FormFileInput.container.js">
+      <file leaf-file-name="App.container.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.container.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="102">
+              <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuItem.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/menu/menuItem/MenuItem.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,8 +153,6 @@
         <option value="$PROJECT_DIR$/src/styles/addBlock.scss" />
         <option value="$PROJECT_DIR$/src/redux/store.js" />
         <option value="$PROJECT_DIR$/src/redux/state/initializeStore.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/table/Table.jsx" />
         <option value="$PROJECT_DIR$/src/styles/menu.scss" />
         <option value="$PROJECT_DIR$/src/styles/articlePage.scss" />
         <option value="$PROJECT_DIR$/src/styles/index.scss" />
@@ -179,18 +173,22 @@
         <option value="$PROJECT_DIR$/src/components/form/formFileInput/FormFileInput.jsx" />
         <option value="$PROJECT_DIR$/src/components/articleWorkPage/articleForm/imageBlock/ImageBlock.container.js" />
         <option value="$PROJECT_DIR$/src/components/articleWorkPage/articleForm/bodyBlock/BodyBlock.jsx" />
+        <option value="$PROJECT_DIR$/src/redux/saga/index.js" />
+        <option value="$PROJECT_DIR$/src/components/form/formTextAreaInput/FormTextAreaInput.jsx" />
+        <option value="$PROJECT_DIR$/src/components/form/formTextInput/FormTextInput.jsx" />
+        <option value="$PROJECT_DIR$/src/redux/state/app.state.js" />
         <option value="$PROJECT_DIR$/src/components/articleWorkPage/articleForm/imageBlock/ImageBlock.jsx" />
         <option value="$PROJECT_DIR$/src/core/apiRequests.js" />
         <option value="$PROJECT_DIR$/src/core/api/articles.js" />
-        <option value="$PROJECT_DIR$/src/redux/saga/index.js" />
-        <option value="$PROJECT_DIR$/src/components/menu/menuItem/MenuItem.jsx" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/menu/Menu.jsx" />
         <option value="$PROJECT_DIR$/src/redux/modules/articleForm.module.input.js" />
-        <option value="$PROJECT_DIR$/src/components/form/formTextAreaInput/FormTextAreaInput.jsx" />
-        <option value="$PROJECT_DIR$/src/components/form/formTextInput/FormTextInput.jsx" />
+        <option value="$PROJECT_DIR$/src/components/menu/menuItem/MenuItem.jsx" />
+        <option value="$PROJECT_DIR$/src/components/menu/Menu.jsx" />
         <option value="$PROJECT_DIR$/src/redux/modules/articlePage.module.js" />
-        <option value="$PROJECT_DIR$/src/redux/state/app.state.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/App.container.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/table/Table.container.js" />
+        <option value="$PROJECT_DIR$/src/components/table/Table.jsx" />
       </list>
     </option>
   </component>
@@ -269,126 +267,7 @@
               <item name="arbylabs-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="articleWorkPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arbylabs-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arbylabs-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="articleWorkPage" type="462c0819:PsiDirectoryNode" />
-              <item name="articleForm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arbylabs-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arbylabs-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="articleWorkPage" type="462c0819:PsiDirectoryNode" />
-              <item name="articleForm" type="462c0819:PsiDirectoryNode" />
-              <item name="bodyBlock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arbylabs-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arbylabs-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="articleWorkPage" type="462c0819:PsiDirectoryNode" />
-              <item name="articleForm" type="462c0819:PsiDirectoryNode" />
-              <item name="imageBlock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arbylabs-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arbylabs-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arbylabs-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arbylabs-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-              <item name="formFileInput" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arbylabs-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arbylabs-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-              <item name="formTextAreaInput" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arbylabs-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arbylabs-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-              <item name="formTextInput" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arbylabs-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arbylabs-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arbylabs-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arbylabs-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-              <item name="menuItem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arbylabs-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arbylabs-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="table" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arbylabs-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arbylabs-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arbylabs-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arbylabs-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arbylabs-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arbylabs-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arbylabs-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arbylabs-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arbylabs-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arbylabs-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="saga" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arbylabs-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arbylabs-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="state" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="arbylabs-dashboard" type="b2602c69:ProjectViewProjectNode" />
@@ -485,11 +364,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559320324780</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add adding and fetching functions">
+      <created>1559406601202</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559406601202</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add hook for image showing">
+      <created>1559407783115</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559407783115</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35234000" />
+    <option name="totallyTimeSpent" value="39460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -528,26 +421,11 @@
     <MESSAGE value="Add header" />
     <MESSAGE value="Create basic page structure, add router" />
     <MESSAGE value="Finish html structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish html structure" />
+    <MESSAGE value="Add adding and fetching functions" />
+    <MESSAGE value="Add hook for image showing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add hook for image showing" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/articleWorkPage/articleForm/ArticleForm.container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/form/formFileInput/FormFileInput.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/form/formTextAreaInput/FormTextAreaInput.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -650,23 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/table/Table.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/menu.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -696,47 +557,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/modules/articlePage.module.addContent.js" />
-    <entry file="file://$PROJECT_DIR$/src/redux/reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/articlePage/ArticlePage.container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/addBlock/AddBlock.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/articlePage/ArticlePage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/articleWorkPage/ArticleWorkPage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -787,82 +611,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/apiRequests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/api/articles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/saga/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/state/initializeStore.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="106" selection-start-line="12" selection-start-column="106" selection-end-line="12" selection-end-column="106" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/menu/menuItem/MenuItem.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="113" selection-start-line="4" selection-start-column="113" selection-end-line="4" selection-end-column="113" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/menu/Menu.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="107" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/articleWorkPage/articleForm/imageBlock/ImageBlock.container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/articleWorkPage/articleForm/imageBlock/ImageBlock.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/form/formFileInput/FormFileInput.container.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -871,13 +621,6 @@
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/articleWorkPage/articleForm/bodyBlock/BodyBlock.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -922,10 +665,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/state/app.state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/apiRequests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/articleWorkPage/ArticleWorkPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/articlePage/ArticlePage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/articleWorkPage/articleForm/imageBlock/ImageBlock.container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/articleWorkPage/articleForm/imageBlock/ImageBlock.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/api/articles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/articleWorkPage/articleForm/bodyBlock/BodyBlock.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/modules/articleForm.module.input.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+        <state relative-caret-position="-467">
+          <caret line="71" column="6" lean-forward="true" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/saga/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -934,18 +762,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/modules/articlePage.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        <state>
+          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/state/app.state.js">
+    <entry file="file://$PROJECT_DIR$/src/components/menu/menuItem/MenuItem.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="51">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/menu/Menu.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/articlePage/ArticlePage.container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="13" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/table/Table.container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/table/Table.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
         </state>
       </provider>
     </entry>

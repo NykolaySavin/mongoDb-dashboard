@@ -58,14 +58,10 @@ export function postUploadRequest(url, files,body) {
     });
 }
 
-export function deleteApiRequest(url, body, options = { headers: {} }) {
+export function deleteApiRequest(url, options = { headers: {} }) {
     return apiRequest(url, {
         ...options,
         method: 'DELETE',
-        headers: {
-            ...options.headers,
-            ...HEADERS.JSON,
-        },
-        body: JSON.stringify(body),
+        headers: options.headers,
     });
 }

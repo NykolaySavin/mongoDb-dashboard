@@ -36,7 +36,7 @@ export const reducer = {
     const title = `content.${i}.title`;
       const text_before = `content.${i}.text_before`;
       const text_after = `content.${i}.text_after`;
-      const image_caption = `content.${i}.image_caption`;
+      const image_caption = `content.${i}.image-caption`;
     const newState = {
       ...state,
       workingItem: {
