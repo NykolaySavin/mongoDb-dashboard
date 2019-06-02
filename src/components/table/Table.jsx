@@ -1,7 +1,7 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 
-export default function Table({ items, title,deleteItem }) {
+export default function Table({ items, title,deleteItem,editItem,url }) {
   return (
     <div>
       <table className="table table-hover">
@@ -15,7 +15,7 @@ export default function Table({ items, title,deleteItem }) {
           {items.map(item => (
             <tr key={item["_id"]}>
               <td>{item.title}</td>
-              <td  style={{width:150}}><NavLink>Edit</NavLink> | <NavLink onClick={()=>deleteItem(item["_id"])}>Delete</NavLink></td>
+              <td  style={{width:150}}><NavLink to={`${url}/edit`} onClick={()=>editItem(item["_id"])}>Edit</NavLink> | <a href="javascript:void(0)" onClick={()=>deleteItem(item["_id"])}>Delete</a></td>
             </tr>
           ))}
         </tbody>

@@ -49,11 +49,25 @@ export function postApiRequest(url, body, options = { headers: {} }) {
 
 export function postUploadRequest(url, files,body) {
     const data = new FormData();
+    if(files)
     files.forEach((file,i)=>data.append(`files[${i}]`,file));
+    if(body&&body.content)
     body.content.forEach((item,i)=>Object.keys(item).forEach(value=>data.append(`body[${i}][${value}]`,item[value])))
     data.append('title',body.title)
     return apiRequest(url, {
         method: 'POST',
+        body: data,
+    });
+}
+export function putUploadRequest(url, files,body) {
+    const data = new FormData();
+    if(files)
+        files.forEach((file,i)=>data.append(`files[${i}]`,file));
+    if(body&&body.content)
+        body.content.forEach((item,i)=>Object.keys(item).forEach(value=>data.append(`body[${i}][${value}]`,item[value])))
+    data.append('title',body.title)
+    return apiRequest(url, {
+        method: 'PUT',
         body: data,
     });
 }

@@ -5,6 +5,7 @@ import Home from "./components/home/Home";
 import ArticlePage from "./components/articlePage/ArticlePage.container";
 import {Route,Switch} from "react-router-dom";
 import ArticleWorkPage from './components/articleWorkPage/ArticleWorkPage';
+import * as Api from './core/api/articles';
 
 function App({fetchArticles}) {
     const articlesUrl = '/articles';
@@ -18,7 +19,8 @@ function App({fetchArticles}) {
             <Switch>
                 <Route path={startUrl} component={Home} exact/>
                 <Route path={articlesUrl} render={(props) => {fetchArticles(); return(<ArticlePage {...props} {...menuItems[1]}/>);} } exact/>
-                <Route path={`/articles/add`} render={() => <ArticleWorkPage/> } exact/>
+                <Route path={`/articles/add`} render={() => <ArticleWorkPage saveOperation={Api.addArticle}/> } exact/>
+                <Route path={`/articles/edit`} render={() => <ArticleWorkPage saveOperation={Api.editArticle}/> } exact/>
             </Switch>
         </div>
 

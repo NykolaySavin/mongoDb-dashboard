@@ -1,8 +1,6 @@
-import {postUploadRequest, apiRequest, deleteApiRequest} from '../apiRequests';
+import {postUploadRequest, apiRequest, deleteApiRequest,putUploadRequest} from '../apiRequests';
 
-export function addArticle(files,body) {
-    console.dir(body)
-    console.dir(files)
+export function addArticle(id,files,body) {
     return postUploadRequest(`/api/articles`,files,body);
 }
 export function getArticles() {
@@ -10,4 +8,7 @@ export function getArticles() {
 }
 export function deleteArticle(id) {
     return deleteApiRequest(`/api/articles/${id}`);
+}
+export function editArticle(id,files,body,unchangedFiles) {
+    return putUploadRequest(`/api/articles/${id}`,files,body,unchangedFiles);
 }
