@@ -40,6 +40,7 @@ export const reducer = {
     };
     return newState;
   },
+
   [handleFileInput]: (state, payload) => {
     const content = [...state.workingItem.content];
     content[payload.index][payload.event.target.name] =
@@ -90,12 +91,12 @@ export const reducer = {
       ],
       workingItem: { content: [], title: "" }
     };
-    console.dir(newState)
     return newState;
   },
-  [saveChangesFail]: state => {
+  [saveChangesFail]: (state, error) => {
     const newState = {
-      ...state
+      ...state,
+      error
     };
     return newState;
   }

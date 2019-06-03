@@ -12,7 +12,7 @@ export function addArticle(body) {
   if (body && body.content)
     body.content.forEach((item, i) =>
       Object.keys(item).forEach(value => {
-        if (value != "image") data.append(`body[${i}][${value}]`, item[value]);
+        if (value !== "image") data.append(`body[${i}][${value}]`, item[value]);
       })
     );
   data.append("title", body.title);
@@ -20,6 +20,9 @@ export function addArticle(body) {
 }
 export function getArticles() {
   return apiRequest(`/api/articles`);
+}
+export function findArticle(id) {
+    return apiRequest(`/api/articles/${id}`);
 }
 export function deleteArticle(id) {
   return deleteApiRequest(`/api/articles/${id}`);
@@ -30,13 +33,14 @@ export function editArticle(body) {
     if(files)
         files.forEach((file,i)=>data.append(`files[${i}]`,file));
     if(body&&body.content)
+        console.dir(body.content)
         body.content.forEach((item,i)=>Object.keys(item).forEach(value=>{
-            if (value != "image")
+            if (value !== "image")
             data.append(`body[${i}][${value}]`,item[value])
             else if(!item[value][0])
                 data.append(`body[${i}][${value}]`,'new')
             else{
-                data.append(`body[${i}][${value}]`,item['image'].key)
+                data.append(`body[${i}][${value}]`,item['image'][0].key)
             }
         }))
     data.append('title',body.title)
