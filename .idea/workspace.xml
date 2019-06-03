@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c38f8cd-dc97-423f-9510-4221f037c477" name="Default" comment="Correct mistakes with editing">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1c38f8cd-dc97-423f-9510-4221f037c477" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -424,7 +424,7 @@
       <workItem from="1559552468501" duration="6568000" />
       <workItem from="1559561428798" duration="1725000" />
       <workItem from="1559564921682" duration="3504000" />
-      <workItem from="1559579109270" duration="3784000" />
+      <workItem from="1559579109270" duration="4035000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1559298647485</created>
@@ -517,21 +517,27 @@
       <option name="project" value="LOCAL" />
       <updated>1559582596547</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Delete .idea">
+      <created>1559583170490</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1559583170490</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70968000" />
+    <option name="totallyTimeSpent" value="71219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50446427" side_tool="true" weight="0.32838285" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4955357" visible="true" weight="0.32838285" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4955357" visible="true" weight="0.32838285" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -566,7 +572,8 @@
     <MESSAGE value="Add editing and removing content pages" />
     <MESSAGE value="Change front end handlers for form" />
     <MESSAGE value="Correct mistakes with editing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correct mistakes with editing" />
+    <MESSAGE value="Delete .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete .idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
