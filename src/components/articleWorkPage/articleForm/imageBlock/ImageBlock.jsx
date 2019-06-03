@@ -1,27 +1,26 @@
 import React,{useEffect,useState}  from 'react';
-import FormTextInput from '../../../form/formTextInput/FormTextInput.container';
+import {ContentInput} from '../../../form/formTextInput/FormTextInput.container';
 import FormFileInput from "../../../form/formFileInput/FormFileInput.container";
 
-export default function ImageBlock({item,workingItem}) {
+export default function ImageBlock({index,workingItem}) {
     const [link,getLink]=useState('');
         useEffect(()=>{
-            const url = workingItem[`${item}.image_url`];
-            const img = workingItem[`${item}.image`];
-            if(!url&&img){
+            if(workingItem.content[index] && workingItem.content[index].image && !workingItem.content[index].image[0]){
+                const img =  workingItem.content[index].image;
                 const reader = new FileReader();
                 reader.onloadend=()=>getLink(reader.result);
                 reader.readAsDataURL(img);
             }
-            if(url&&!img){
-                getLink(url);
+            else if(workingItem.content[index] && workingItem.content[index].image && workingItem.content[index].image[0].url){
+                getLink(workingItem.content[index].image[0].url);
             }
 
         })
     return(<div className="image-block">
-        <img  src={link?link:null}/>
+        <img src={link?link:null}/>
         <div className="form-group">
-            <FormTextInput id={`${item}.image_caption`} placeholder="Image Caption"/>
-            <FormFileInput id={`${item}.image`} label="Select File"/>
+            <ContentInput id={`image_caption`} index={index} placeholder="Image Caption"/>
+            <FormFileInput index={index} id={`image`} label="Select File"/>
         </div>
     </div>)
 }

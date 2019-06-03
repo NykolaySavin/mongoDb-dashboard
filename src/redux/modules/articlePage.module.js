@@ -23,10 +23,12 @@ export const reducer = {
     return newState;
   },
     [editArticle]: (state, id) => {
+    console.dir(state)
         const newState = {
             ...state,
             workingItem: state.items.find(item=>item["_id"]==id)
         };
+    console.dir(newState)
         return newState;
     },
   [deleteArticle]: (state, id) => {
@@ -57,22 +59,8 @@ export const reducer = {
 
 export function* fetchArticlesSaga() {
   const { response, error } = yield call(Api.getArticles);
-  const convertResponse = (item)=>{
-    const convertPage = (page,i)=>{
-      result[`content.${i}.title`]=page.title;
-        result[`content.${i}.text_before`]=page["text_before"];
-        result[`content.${i}.text_after`]=page["text_after"];
-        page.image.forEach((img,j)=>{ result[`content.${i}.image_caption`]=page.image[j].caption;
-            result[`content.${i}.image_url`]=page.image[j].url;})
-        result.content.push({});
-
-    };
-    const result = {"_id":item["_id"],title:item.title,content:[]}
-      item.content.forEach(convertPage)
-      return result;
-  }
   if (response) {
-    yield put(fetchArticlesSuccess(response.map(convertResponse)));
+    yield put(fetchArticlesSuccess(response));
   } else {
     yield put(fetchArticlesFail(error));
   }

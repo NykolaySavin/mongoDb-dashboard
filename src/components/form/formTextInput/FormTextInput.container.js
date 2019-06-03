@@ -1,6 +1,7 @@
 import { connect } from 'react-redux';
 import TextInput from './FormTextInput';
-import {handleTextInput} from '../../../redux/modules/articleForm.module.input';
+import ContentTextInput from './FormContentTextInput';
+import {handleTextInput,handleContentTextInput} from '../../../redux/modules/articleForm.module.input';
 
 
 export function mapStateToProps(state) {
@@ -11,4 +12,8 @@ export function mapStateToProps(state) {
 export const mapDispatchToProps = {
     handleInput: handleTextInput,
 };
-export default connect(mapStateToProps, mapDispatchToProps)(TextInput);
+export const mapDispatchContentToProps = {
+    handleInput: handleContentTextInput,
+};
+export const ArticleInput =  connect(mapStateToProps, mapDispatchToProps)(TextInput);
+export const ContentInput =  connect(mapStateToProps, mapDispatchContentToProps)(ContentTextInput);
